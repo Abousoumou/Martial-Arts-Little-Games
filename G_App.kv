@@ -1,0 +1,13 @@
+<MainScreen>:
+    BoxLayout:
+        orientation: "vertical"
+
+<GameDetailsScreen>:
+    ScrollView:
+        do_scroll_x: False
+        do_scroll_y: True
+        BoxLayout:
+            id: game_layout
+            orientation: "vertical"
+            size_hint_y: None
+            height: self.minimum_height
