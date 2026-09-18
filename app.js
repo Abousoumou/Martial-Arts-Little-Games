@@ -280,7 +280,7 @@ function render() {
       <article class="card" data-id="${esc(g.id)}">
         <div class="card__media">
           <img class="card__img"
-               src="photos/${esc(g.picture)}"
+               src="${esc(g.picture)}"
                alt="${esc(title)}"
                loading="lazy"
                data-num="${esc(num)}">
